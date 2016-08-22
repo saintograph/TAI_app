@@ -9,7 +9,7 @@ class TAI_app extends Component {
         <Container>
             <Content>
               <View style={styles.headerContainer}>
-                <Image source={{uri: 'https://unsplash.it/450/400/?image=684'}} style={styles.headerImage}>
+                <Image source={{uri: 'https://unsplash.it/450/400/?image=971'}} style={styles.headerImage}>
                   <Header style={styles.headerBackground}>
                   </Header>
                   <Text style={styles.headerTitle}>May 10</Text>
