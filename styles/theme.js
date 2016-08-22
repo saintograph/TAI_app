@@ -6,11 +6,19 @@ module.exports = StyleSheet.create({
 
 // Header styles
 
+  headerImage: {
+    height: 225,
+    width: 450,
+    // marginBottom: 15,
+  
+  },
+
   headerBackground: {
     backgroundColor: 'rgba(0,0,0,0)',
   },
 
   headerTitle: {
+    // color: '#4a4a4a',
     color: 'white',
     textAlign: 'left',
     fontSize: 24,
@@ -31,6 +39,7 @@ module.exports = StyleSheet.create({
 
   cardMargin: {
     margin: 10,
+    minHeight: 275,
   },
 
   marginAll: {
@@ -38,20 +47,14 @@ module.exports = StyleSheet.create({
     backgroundColor: 'white',
   },
 
-  cardCategory: {
-    fontSize: 14,
-    color: "#58b7dd",
-    marginLeft: 10,
-    marginTop: 10,
-    marginBottom: 10,
-    borderColor: '#58b7dd',
-  },
-
   cardHeading: {
     fontSize: 24,
     marginLeft: 10,
-    lineHeight: 36,
-    marginBottom: 15,
+    marginRight: 15,
+    paddingTop: 15,
+    lineHeight: 36,    
+    minHeight: 80,
+    // marginBottom: 15,
   },  
   
   cardContent: {
@@ -72,7 +75,30 @@ module.exports = StyleSheet.create({
     marginTop: 15,
     marginLeft: 12,
     fontSize: 10,
-    marginBottom: 15,
+    // marginBottom: 15,
+  },
+
+  cardCategory: {
+    fontSize: 14,
+    color: "#58b7dd",
+    marginLeft: 10,
+    marginTop: 10,
+    marginBottom: 10,
+    borderColor: '#58b7dd',
+    flex:1
+  },
+
+  cardFooter: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'flex-end',
+    // marginBottom: 5,
+  },
+
+  cardCategoryImage: {
+    width: 30,
+    height: 30,
+    marginTop: 5,
   },
 
 });
