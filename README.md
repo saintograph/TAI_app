@@ -1,4 +1,4 @@
-The Arctic Institute newsreader Android app
+The Arctic Institute newsreader Android app ( wip )
 -------------------------------------------
 
 Credits:
